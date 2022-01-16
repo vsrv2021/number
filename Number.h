@@ -9,7 +9,6 @@
 	
 #include <iostream>
 #include <vector>
-#include <string>
 
 using namespace std;
 
@@ -26,7 +25,7 @@ class Number
 {	
 	private:
         
-        unsigned long long res = 0;
+        long res = 0;
         int sum=0;
 		
 		
@@ -40,7 +39,7 @@ class Number
 		// FUNCTIONS
 		// ----------------------------------------------------------------------------------   
         
-        int find_sum(vector<int>&digits);
+                int find_sum(vector<int>&digits);
 		void run();
 		
 };
